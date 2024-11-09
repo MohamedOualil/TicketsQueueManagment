@@ -31,7 +31,7 @@ class clsQueueLine
 		clsTickets(string Prefix, short Number, short AverageServeTime, short WaitingClients) {
 			_Prefix = Prefix;
 			_Number = Number;
-			_TicketTime = clsDatee::DateToString(clsDate::GetSystemDate())
+			_TicketTime = clsDate::DateToString(clsDate::GetSystemDate())
 				+ " " + clsDate::GetSystemTime();
 			_AverageServeTime = AverageServeTime;
 			_WaitingClients = WaitingClients;
